@@ -1,1 +1,15 @@
+1. Download this files:
+   - `python hotsongs_billboard.csv`
+   - `python top100itunes.csv`
+   - `python topsongs.csv`
+   - "secrets" from spotify
+   - `python df_final.csv`
+   - `python topsongs_final.csv`
+   - `python kmeans.pkl`
+   - `python scaler.pkl`
 
+2. Run the scripts in the order of the parts provided:
+   - `python 1. Hot Songs List Creation.ipynb`
+   - `python 2. Spotify Data Collection + Feature Extraction.ipynb`
+   - `python 3. Clustering.ipynb`
+   - `python 4. Song Recommender.ipynb`
