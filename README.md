@@ -4,13 +4,13 @@
 The GNOD Music Recommendation System is a sophisticated tool that uses data scraping, processing, and machine learning to suggest songs to users based on their preferences. This project is structured in a sequence of steps, each represented by a script that builds upon the work of the previous one.
 
 ## Repository Structure
-- `data_collection/`
+- `data_collection`
   - `1. Hot Songs List Creation.ipynb`: Collects the top songs from different sources.
-- `data_preprocessing/`
+- `data_preprocessing`
   - `2. Spotify Data Collection + Feature Extraction.ipynb`: Uses Spotify's API for accessing playlists and retrieving track IDs and audio features from Spotify.
-- `model_training/`
+- `model_training`
   - `3. Clustering.ipynb`: Scales the features for machine learning and Trains a KMeans clustering model.
-- `application/`
+- `application`
   - `4. Song Recommender.ipynb`: The final application script that recommends songs.
 
 ## Usage
